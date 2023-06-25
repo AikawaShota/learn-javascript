@@ -19,3 +19,5 @@ points.dict = function() {  // 2点間の距離を計算するメソッドを定
     return Math.sqrt(a*a +  // ピタゴラスの定理。
                     b*b);   // Math.sqrt()は平方根を計算する。
 };
+
+points.dict()
