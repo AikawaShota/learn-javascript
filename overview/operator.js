@@ -32,9 +32,9 @@ x > y   // => false: 大なり
 x >= y  // => false: 大なりイコール
 "two" === "three"   // => false: 2つの文字列は異なる
 "two" > "three" // => true: "tw"は、アルファベット順では、"th"より後だから
-false === (x > y)   // => true: falseはfalseと等しい
+false === (x > y);  // => true: falseはfalseと等しい
 
 // 論理演算子は、論理値を組み合わせたり反転させたりする
-(x === 2) && (y === 3)  // => true: 両方の比較がtrue。&&はANDを意味する
+(x === 2) && (y === 3); // => true: 両方の比較がtrue。&&はANDを意味する
 (x > 3) || (y < 3)  // => false: 両方の比較ともtrueではない。||はORを意味する
 !(x === y)  // => true: !は論理値を反転させる
